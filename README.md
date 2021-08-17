@@ -64,5 +64,13 @@ Visit the website here.
 
 
 * Style elements 
+  - **Fonts**
+  
+    *Open Sans* and *Abril Fatface* from Google fonts will be used to style text contents for the website. These fonts were chosen to give the website more of a professional feel and appearance. 
+
+  - **Icons**
+    
+    Icons from Font Awesome will be used to style social links to create a tidy and easy access for subscription.
+
 * Create a wireframe
 * Technology stack 
