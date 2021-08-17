@@ -77,7 +77,9 @@ Visit the website here.
     Icons from Font Awesome will be used to style social links to create a tidy and easy access for subscription.
 
 * Create a wireframe
+
 * Technology stack 
+
   - HTML5
   - CSS3
   - Gitpod/Github
@@ -89,3 +91,28 @@ Visit the website here.
   - [Unsplash.com](https://unsplash.com/)
   - [Pixabay.com](https://pixabay.com/)
   - [Stocksnap](Stocksnap.io)
+
+
+### 3. **Testing and launch**
+
+
+### 4. **Support**
+
+### 5. **Reference and Research**
+
+* Reference
+
+  - Love Running
+  - [Living Room Yoga](https://www.livingroomyoga.ie/)
+  - [Zara](zara.com)
+  - [Apple](apple.com)
+
+* Research
+
+  - [W3schools - CSS](https://www.w3schools.com/css/default.asp)
+  - [W3schools - HTML](https://www.w3schools.com/html/default.asp )
+  - [Website Development Process: Full Guide in 7 Steps](https://xbsoftware.com/blog/website-development-process-full-guide/)  
+  - [10 Examples of Great Yoga Teacher Homepages](https://www.susannerieker.com/10-examples-great-yoga-teacher-homepages/ ) 
+  - [Lights Out: 3 Benefits to Practicing Yoga in the Dark This Fall Season](https://www.yogapedia.com/2/6927/yoga-practice/yoga-types/why-you-should-practice-yoga-in-the-dark)  
+  - [Bedtime Yoga: How to Relax for a Good Night’s Sleep](https://www.healthline.com/health/healthy-sleep/bedtime-yoga 
+) 
