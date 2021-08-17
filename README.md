@@ -25,11 +25,15 @@ Visit the website here.
 
 
 ### 1. **What is it?**
+
 * Goals for the website
+
   - Introducing Yin Yoga.
   - Introducing benefits of practicing Yin Yoga.
   - Offering online Yin Yoga classes.
+
 * Target audience
+
   - Office worker.
   - People who sleep lightly, have insomnia, or have limited time to sleep.
 
@@ -74,3 +78,14 @@ Visit the website here.
 
 * Create a wireframe
 * Technology stack 
+  - HTML5
+  - CSS3
+  - Gitpod/Github
+  - [Balsamic](https://balsamiq.com/wireframes/)
+  - [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input)
+  - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+  - [Font Awesome](https://fontawesome.com/)
+  - [Google Fonts](https://fonts.google.com/)
+  - [Unsplash.com](https://unsplash.com/)
+  - [Pixabay.com](https://pixabay.com/)
+  - [Stocksnap](Stocksnap.io)
