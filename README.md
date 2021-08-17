@@ -10,21 +10,25 @@ Visit the website here.
 ### 1. **What is it?**
 * Goals for the website
 * Target audience
-### 2. **How to achieve?**
+
+###  2. **How to achieve?**
 * Theme and Theory
 * Features
 * Style elements 
 * Create a wireframe
 * Technology stack 
+
 ### 3. **Testing and launch**
+
 ### 4. **Support**
 * Mentor 
+
 ### 5. **Reference and Research**
 * Reference
 * Research
 
 
-### 1. **What is it?**
+### **1. What is it?**
 
 * Goals for the website
 
@@ -37,8 +41,10 @@ Visit the website here.
   - Office worker.
   - People who sleep lightly, have insomnia, or have limited time to sleep.
 
+[Back to Table of Contents](#content)
 
-### 2. **How to achieve?**
+### **2. How to achieve?**
+
 * Theme and Theory
   
   Practicing Yin Yoga before bedtime is a fantastic way to release any mental or physical tension. It can help people enjoy a peaceful night and get a deep sleep. Developing a nighttime routine may improve sleeping quality. 
@@ -50,6 +56,8 @@ Visit the website here.
   Beautiful pictures are important to draw people’s attention and colours like dark gray and the other can instantly bring anybody into a relaxed state. These things also add a trusty and professional feeling to the brand.
   
   Colour psychology teaches that colours have a big influence on people’s behaviors and moods. Well-selected colours can convince users to take action and purchase products or sign up for your mailing list.
+
+  [Back to Table of Contents](#content)
 
 * Features
 
@@ -65,7 +73,7 @@ Visit the website here.
     
     The social links will be added at the bottom left to allow our potential customers to connect with the site on social media.
 
-
+[Back to Table of Contents](#content)
 
 * Style elements 
   - **Fonts**
@@ -76,7 +84,14 @@ Visit the website here.
     
     Icons from Font Awesome will be used to style social links to create a tidy and easy access for subscription.
 
+
+[Back to Table of Contents](#content)
+
+
 * Create a wireframe
+
+[Back to Table of Contents](#content)
+
 
 * Technology stack 
 
@@ -93,7 +108,13 @@ Visit the website here.
   - [Stocksnap](Stocksnap.io)
 
 
+[Back to Table of Contents](#content)
+
+
 ### 3. **Testing and launch**
+
+
+[Back to Table of Contents](#content)
 
 
 ### 4. **Support**
@@ -102,6 +123,10 @@ Visit the website here.
 
   - [Simen Daehlin](https://www.linkedin.com/in/simendaehlin/)
   A lead Full Stack Developer & Mentor
+
+
+[Back to Table of Contents](#content)
+
 
 ### 5. **Reference and Research**
 
@@ -121,3 +146,6 @@ Visit the website here.
   - [Lights Out: 3 Benefits to Practicing Yoga in the Dark This Fall Season](https://www.yogapedia.com/2/6927/yoga-practice/yoga-types/why-you-should-practice-yoga-in-the-dark)  
   - [Bedtime Yoga: How to Relax for a Good Night’s Sleep](https://www.healthline.com/health/healthy-sleep/bedtime-yoga 
 ) 
+
+
+[Back to Table of Contents](#content)
