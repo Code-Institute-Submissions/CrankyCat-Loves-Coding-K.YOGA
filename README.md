@@ -98,6 +98,11 @@ Visit the website here.
 
 ### 4. **Support**
 
+* Mentor
+
+  - [Simen Daehlin](https://www.linkedin.com/in/simendaehlin/)
+  A lead Full Stack Developer & Mentor
+
 ### 5. **Reference and Research**
 
 * Reference
