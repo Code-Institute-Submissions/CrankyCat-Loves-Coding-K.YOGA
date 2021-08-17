@@ -74,11 +74,91 @@
 
             <p>Practising Yin Yoga with K.YOGA</p>
 
-            <a href="schedule.html" aria-label="Book Yoga Class Here" class="sub-book-here">Book Here</a>
+            <a href="schedule.html" aria-label="Book Yoga Class Here" >Book Here</a>
 
     </section>
-    
-    <section id="schedule"></section>
+
+    <section id="schedule">
+        <form action="#" method="POST">
+            <div>
+                <h2>What are you looking for?</h2>
+
+                <div>
+                    <label for="121-yin-yoga">One to One Yin Yoga class</label>
+                    <input type="radio" name="class-type" id="121-yin-yoga" value="121-yin-yoga" required>
+
+                    <label for="group-yin-yoga">Group Yin Yoga class</label>
+                    <input type="radio" name="class-type" id="group-yin-yoga" value="group-yin-yoga" required>
+
+                    <label for="121-group-yin-yoga">Both One to One and Group Yin Yoga class</label>
+                    <input type="radio" name="class-type" id="121-group-yin-yoga" value="121-group-yin-yoga" required>
+
+                    <label for="free-yin-yoga">Free Yin Yoga class</label>
+                    <input type="radio" name="class-type" id="free-yin-yoga" value="free-yin-yoga" required>
+                </div>
+            </div>
+
+            <div>
+                <h2>Schedule Preferance</h2>
+
+                <p>Which days suit you best?</p>
+
+                <div>
+                    <label for="anytime">Anytime</label>
+                    <input type="checkbox" name="anytime" id="anytime" value="anytime" >
+
+                    <label for="monday">Monday</label>
+                    <input type="checkbox" name="monday" id="monday" value="monday" >
+
+                    <label for="tuesday">Tuesday</label>
+                    <input type="checkbox" name="tuesday" id="tuesday" value="tuesday" >
+
+                    <label for="wednesday">Wednesday</label>
+                    <input type="checkbox" name="wednesday" id="wednesday" value="wednesday">
+
+                    <label for="thursday">Thursday</label>
+                    <input type="checkbox" name="thursday" id="thursday" value="thursday" >
+
+                    <label for="friday">Friday</label>
+                    <input type="checkbox" name="friday" id="friday" value="friday" >
+
+                    <label for="saturday">Saturday</label>
+                    <input type="checkbox" name="saturday" id="saturday" value="saturday" >
+
+                    <label for="sunday">Sunday</label>
+                    <input type="checkbox" name="sunday" id="sunday" value="sunday" >
+                </div>
+            </div>
+
+            <div>
+                <label for="time">What time suit you best?</label>
+                <select name="time" id="time">
+                    <option value="anytime">Anytime</option>
+                    <option value="morning">Morning(10:00-12:00)</option>
+                    <option value="afternoon">Afternoon(13:00-14:00)</option>
+                    <option value="evening">Evening(19:00-21:00)</option>
+                </select>    
+            </div>
+
+            <div>
+                <h2>Ready to book a class</h2>
+
+                <div>
+                    <label for="fname">First Name</label>
+                    <input id="fname" name="first_name" type="text" required>
+
+                    <label for="lname">Last Name</label>
+                    <input id="lname" name="last_name" type="text" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email_address" required>
+                </div>
+            
+                <input class="book-yin-yoga-message sub-book-here" type="submit" value="Submit">
+            </div>
+
+        </form>
+    </section>
 
     <footer></footer>
 
