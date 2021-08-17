@@ -48,6 +48,21 @@ Visit the website here.
   Colour psychology teaches that colours have a big influence on people’s behaviors and moods. Well-selected colours can convince users to take action and purchase products or sign up for your mailing list.
 
 * Features
+
+  - **Navigation Bar**
+    
+    The navigation bar is designed to be simple and legible. Positioned under the logo on the top to help visitors find what they are looking for. Also a sticky navbar will be designed to help visitors to navigate the site more efficiently. Navigation links will be underlined to indicate which page they are on. Hovering over navigation links will apply a white background to the content indicating it has been selected.
+
+  - **Booking button**
+    
+    A Booking button will be added to each page to allow any potential customers to book a class easily. Once they click on the button, they will be taken to the booking page. 
+
+  - **Social links**
+    
+    The social links will be added at the bottom left to allow our potential customers to connect with the site on social media.
+
+
+
 * Style elements 
 * Create a wireframe
 * Technology stack 
