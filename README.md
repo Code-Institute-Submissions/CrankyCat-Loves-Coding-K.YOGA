@@ -22,3 +22,11 @@ Visit the website here.
 ### 5. **Reference and Research**
 * Reference
 * Research
+
+
+### 1. **What is it?**
+* Goals for the website
+  - Introducing Yin Yoga.
+  - Introducing benefits of practicing Yin Yoga.
+  - Offering online Yin Yoga classes.
+
