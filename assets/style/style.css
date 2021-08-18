@@ -24,6 +24,8 @@ body {
 h1 {
     font-family: 'Abril Fatface', cursive;
     text-transform: uppercase;
+    font-size: 10rem;
+    color: #fff;
 }
 
 a {
@@ -31,13 +33,6 @@ a {
     color: #fff;
 }
 
-#k-yoga-logo {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    font-size: 400%;
-    color: #fff;
-}
 
 /* navigation links */
 
@@ -60,21 +55,21 @@ a {
     margin: 3.5%;
 }
 
-.active {
-    border-bottom: 1px solid #fff;
-}
-
 /* background image */
 
-body section {
-    width: 100%;
-    height: 100rem;
+.scroller {
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
 }
 
-#home #yin-yoga #about-me #schedule {
+.scroller section {
+    width: 100%;
+    height: 100rem;
     scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #home {
@@ -91,19 +86,16 @@ body section {
 }
 
 #Schedule {
-    background: url('../images/juan-miguel-agudo-dCd1l-xtaBA-unsplash.jpg') no-repeat center center scroll;
+    background: url('../images/juan-miguel-agudo-dCd1l-xtaBA.jpg') no-repeat center center scroll;
     background-color: #0a0a0a;
 }
 
-/* welcome message and booking */
+/* message and booking */
 
-
-
-.message {
-    color: #fff;
-    text-align: center;
-    margin-top: 10%;
+header {
+    
 }
+
 
 .yin-yoga-message {
     color: #fff;
