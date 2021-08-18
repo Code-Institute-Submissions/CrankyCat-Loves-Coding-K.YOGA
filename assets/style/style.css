@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&display=swap');
 
+/* scroll snap */
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100vw;
     height: 100vh;
     margin: 0;
     background-color: #171212;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 body .scroller {
@@ -21,4 +31,21 @@ body .scroller section {
     width: 100vw;
     height: 100vh;
     scroll-snap-align: start;
+}
+
+/* background images */
+
+#home {
+    background: url('../images/oksana-taran-GEjCwneU-YY-unsplash.jpg') no-repeat center center scroll;
+}
+#yin-yoga {
+    background: url('../images/woman-1869463_1920.jpg') no-repeat center center scroll;
+}
+#about-me {
+    background: url('../images/StockSnap_373LUTBH99.jpg') no-repeat right center scroll;
+    background-color: #0a0a0a;
+}
+#schedule {
+    background: url('../images/juan-miguel-agudo-dCd1l-xtaBA.jpg') no-repeat center center scroll;
+    background-color: #0a0a0a;
 }
