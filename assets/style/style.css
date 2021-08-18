@@ -28,6 +28,7 @@ body .scroller section {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
     scroll-snap-align: start;
@@ -48,4 +49,39 @@ body .scroller section {
 #schedule {
     background: url('../images/juan-miguel-agudo-dCd1l-xtaBA.jpg') no-repeat center center scroll;
     background-color: #0a0a0a;
+}
+
+/* heading and logo */
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+    font-size: 8rem;
+    color: #fff;
+    letter-spacing: 10px;
+
+    position: absolute;
+    top: -5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* navigation links */
+
+#nav-menu {
+
+}
+
+#nav-menu a:hover {
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+}
+#nav-menu li {
+    display: inline-block;
+    margin: 3.5%;
 }
