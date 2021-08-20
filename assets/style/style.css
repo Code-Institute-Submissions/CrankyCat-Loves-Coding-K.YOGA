@@ -67,7 +67,7 @@ h1 {
     letter-spacing: 10px;
 
     position: absolute;
-    top: 5rem;
+    top: 3rem;
     right: 35%;
 }
 
@@ -82,7 +82,7 @@ a {
     font-size: 2rem;
     position: absolute;
     top: 20rem;
-    width: 100%;
+    width: 100vw;
     right: -10%;
 }
 
@@ -93,6 +93,28 @@ a {
     background-color: #fff;
 }
 #nav-menu li {
-    display: inline-block;
+    display: inline;
     padding: 0 10rem;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    position: absolute;
+    bottom: -15rem;
+}
+
+.social-networks li {
+    display: inline;
+    list-style-type: none;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+#design-by {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
 }
