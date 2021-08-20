@@ -2,6 +2,12 @@
 
 /* scroll snap */
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -61,7 +67,8 @@ h1 {
     letter-spacing: 10px;
 
     position: absolute;
-    top: -5rem;
+    top: 5rem;
+    right: 35%;
 }
 
 a {
@@ -72,7 +79,11 @@ a {
 /* navigation links */
 
 #nav-menu {
-
+    font-size: 2rem;
+    position: absolute;
+    top: 20rem;
+    width: 100%;
+    right: -10%;
 }
 
 #nav-menu a:hover {
@@ -83,5 +94,5 @@ a {
 }
 #nav-menu li {
     display: inline-block;
-    margin: 3.5%;
+    padding: 0 10rem;
 }
