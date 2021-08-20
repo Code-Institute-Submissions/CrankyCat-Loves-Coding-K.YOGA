@@ -41,34 +41,34 @@ body .scroller section {
 }
 
 /* background images */
-
 #home {
     background: url('../images/oksana-taran-GEjCwneU-YY-unsplash.jpg') no-repeat center center scroll;
 }
+
 #yin-yoga {
     background: url('../images/woman-1869463_1920.jpg') no-repeat center center scroll;
 }
+
 #about-me {
     background: url('../images/StockSnap_373LUTBH99.jpg') no-repeat right center scroll;
     background-color: #0a0a0a;
 }
+
 #schedule {
     background: url('../images/juan-miguel-agudo-dCd1l-xtaBA.jpg') no-repeat center center scroll;
     background-color: #0a0a0a;
 }
 
 /* heading and logo */
-
 h1 {
     font-family: 'Abril Fatface', cursive;
     text-transform: uppercase;
     font-size: 8rem;
     color: #fff;
     letter-spacing: 10px;
-
     position: absolute;
     top: 3rem;
-    right: 35%;
+    right: 40%;
 }
 
 a {
@@ -78,23 +78,59 @@ a {
 
 /* navigation links */
 
-#nav-menu {
-    font-size: 2rem;
+#nav-menu ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-size: 2.5rem;
     position: absolute;
     top: 20rem;
-    width: 100vw;
-    right: -10%;
+    right: 25%;
+}
+
+#nav-menu li {
+    list-style-type: none;
 }
 
 #nav-menu a:hover {
-    color: black;
-    padding: 1rem 2rem;
-    border-radius: 5px;
-    background-color: #fff;
+    font-size: 2.8rem;
+    text-decoration: underline;
+    color: #fff;
+    text-underline-offset: 1rem;
 }
-#nav-menu li {
-    display: inline;
-    padding: 0 10rem;
+
+/* message and booking */
+
+.welcome-message {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.about-me-message {
+    width: 70%;
+    height: auto;
+}
+
+.about-me-message p {
+    line-height: 3rem;
+    text-align: justify;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.booking {
+    position: relative;
+    top: 10rem;
+    font-size: 2rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 5rem;
+    width: 15rem;
+    border-radius: 5px;
+    background-color: #a88c76;
 }
 
 /* footer */
@@ -104,7 +140,7 @@ a {
     justify-content: space-between;
     width: 80%;
     position: absolute;
-    bottom: -15rem;
+    bottom: 5rem;
 }
 
 .social-networks li {
@@ -113,7 +149,6 @@ a {
     font-size: 2rem;
     padding: 2rem;
 }
-
 #design-by {
     font-size: 1.5rem;
     letter-spacing: 1px;
