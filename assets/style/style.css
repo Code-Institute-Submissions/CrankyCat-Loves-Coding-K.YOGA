@@ -99,7 +99,7 @@ a {
     text-underline-offset: 1rem;
 }
 
-/* message and booking */
+/* message and booking for section 1,2,3 */
 
 .welcome-message {
     font-size: 2rem;
@@ -132,19 +132,19 @@ a {
     background: rgba(157, 157, 157, 0.4);
 }
 
-.yin-yoga-intro {
+.yin-yoga-message {
     width: 60%;
     height: 40%;
     text-align: center;
 }
 
-h2 {
+.yin-yoga-container h2 {
     font-size: 2.5rem;
     position: relative;
     top: -5rem;
 }
 
-.yin-yoga-intro {
+.yin-yoga-message {
     border: 1px solid rgba(157, 157, 157, 0.5);
     overflow: scroll;
     width: 60%;
@@ -152,32 +152,32 @@ h2 {
     padding: 2.5rem;
 }
 
-.yin-yoga-intro::-webkit-scrollbar {
+.yin-yoga-message::-webkit-scrollbar {
     width: 1rem;
 }
 
-.yin-yoga-intro::-webkit-scrollbar-track {
+.yin-yoga-message::-webkit-scrollbar-track {
     border-radius: 5px;
     box-shadow: rgba(157, 157, 157, 0.5);
 }
 
-.yin-yoga-intro::-webkit-scrollbar-thumb {
+.yin-yoga-message::-webkit-scrollbar-thumb {
     border-radius: 5px;
     background-color: rgba(157, 157, 157, 0.5);
 }
 
-.yin-yoga-intro::-webkit-scrollbar-thumb:hover {
+.yin-yoga-message::-webkit-scrollbar-thumb:hover {
     background-color: rgba(157, 157, 157, 0.6);
 }
 
-.yin-yoga-intro p {   
+.yin-yoga-message p {   
     line-height: 3rem;
     text-align: justify;
     font-size: 2rem;
     margin: 2rem 0;
 }
 
-.yin-yoga-intro div p {
+.yin-yoga-message div p {
     text-align: center;
 }
 
@@ -211,9 +211,41 @@ h2 {
     background-color: #a88c76;
 }
 
+/* section 4 - schedule */ 
+
+.schedule-box {
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    position: relative;
+    top: 7rem;
+    left: 34rem;
+}
+
+.schedule-box h2 {
+    font-size: 2.5rem; 
+    width: 100%;
+    position: relative;
+    right: 35rem;
+    bottom: -10rem;
+}
+
+.weekday{
+    width: 50%;
+}
+
+.submit-bottom {
+    height: 5rem;
+    width: 15rem;
+    border-radius: 5px;
+    background-color: #a88c76;
+    position: relative;
+    left: -12rem;
+    top: 5rem;
+}
+
 /* footer */
 
-.footer {
+footer {
     display: flex;
     justify-content: space-between;
     width: 80%;
