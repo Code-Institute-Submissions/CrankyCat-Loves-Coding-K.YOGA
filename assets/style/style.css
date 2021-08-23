@@ -60,15 +60,14 @@ body .scroller section {
 }
 
 /* heading and logo */
-h1 {
+#logo {
     font-family: 'Abril Fatface', cursive;
     text-transform: uppercase;
-    font-size: 8rem;
+    font-size: 5rem;
     color: #fff;
     letter-spacing: 10px;
     position: absolute;
     top: 3rem;
-    right: 40%;
 }
 
 a {
@@ -158,7 +157,7 @@ a {
 
 .yin-yoga-message::-webkit-scrollbar-track {
     border-radius: 5px;
-    box-shadow: rgba(157, 157, 157, 0.5);
+    background-color: rgba(157, 157, 157, 0.5);
 }
 
 .yin-yoga-message::-webkit-scrollbar-thumb {
@@ -215,7 +214,7 @@ a {
 
 .schedule-box {
     font-size: 1.5rem;
-    line-height: 3.5rem;
+    line-height: 3rem;
     position: relative;
     top: 7rem;
     left: 34rem;
@@ -226,7 +225,7 @@ a {
     width: 100%;
     position: relative;
     right: 35rem;
-    bottom: -10rem;
+    bottom: -3rem;
 }
 
 .weekday{
@@ -262,4 +261,11 @@ footer {
 #design-by {
     font-size: 1.5rem;
     letter-spacing: 1px;
+}
+
+/* Media queries */
+/* For medium screen sizes from 950px wide and down */
+
+@media (max-width: 1200px) {
+
 }
