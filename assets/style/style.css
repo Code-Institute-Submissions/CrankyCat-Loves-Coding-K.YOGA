@@ -86,7 +86,6 @@ a {
     text-decoration: none;
     color: #fff;
 }
-
 /* navigation links */
 
 .check-button {
@@ -95,7 +94,7 @@ a {
     display: none;
 }
 
-#main-menu {
+#check {
     display: none;
 }
 
@@ -116,11 +115,9 @@ a {
     list-style-type: none;
 }
 
-#nav-menu a:hover {
+ #nav-menu a:hover {
     font-size: 2.8rem;
-    text-decoration: underline;
-    color: #fff;
-    text-underline-offset: 1rem;
+    color: #ffff;
 }
 
 /* message and booking for section 1,2,3 */
@@ -306,14 +303,6 @@ footer {
         font-size: 52%;
     }
 
-    #logo {
-        display: inherit;
-    }
-
-    .check-button {
-        display: block;
-    }
-
     #nav-menu ul {
         position: fixed;
         width: 100%;
@@ -328,8 +317,13 @@ footer {
         justify-content: normal;
     }
 
-    #check:checked ~ ul {
-        left: 0;
+    #nav-menu ul li a {
+        display: block;
+        width: 100%;
     }
-  
+
+    #nav-menu ul li a:hover {
+        background-color: rgba(85, 85, 85, 0.4);
+    }
+
 }
