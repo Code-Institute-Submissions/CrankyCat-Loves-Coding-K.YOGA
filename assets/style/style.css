@@ -66,7 +66,7 @@ footer {
 /* background images */
 #home {
     background: url('../images/main-image-women-practice-yoga.jpg') no-repeat center center;
-    background-color: #030406;
+    background-color: #000000;
 }
 
 #yin-yoga {
@@ -76,12 +76,12 @@ footer {
 
 #about-me {
     background: url('../images/about-me-trainer-image.jpg') no-repeat right center;
-    background-color: #010103;
+    background-color: #000000;
 }
 
 #schedule {
     background: url('../images/schedule-image-book-class.jpg') no-repeat left center;
-    background-color: #07080a;
+    background-color: #000000;
 }
 
 /* heading and logo */
@@ -173,7 +173,6 @@ footer {
 }
 
 .yin-yoga-message {
-    border: 1px solid rgba(157, 157, 157, 0.5);
     overflow: scroll;
     width: 70%;
     height: 50%;
@@ -224,7 +223,7 @@ footer {
 /* section 4 - schedule */ 
 
 .schedule-box {
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 3rem;
     position: relative;
     top: 7rem;
@@ -243,6 +242,19 @@ footer {
     width: 50%;
 }
 
+#time {
+    padding: 5px 20px;
+    font-size: 2rem;
+}
+
+.submit input {
+    padding: 5px 6rem;
+}
+
+#email {
+    padding: 5px 4.5rem;
+}
+
 .submit-bottom {
     height: 5rem;
     width: 15rem;
@@ -251,6 +263,7 @@ footer {
     position: relative;
     left: -12rem;
     top: 5rem;
+    font-size: 2rem;
 }
 
 /* footer */
