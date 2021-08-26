@@ -89,6 +89,16 @@ a {
 
 /* navigation links */
 
+.check-button {
+    font-size: 3rem;
+    cursor: pointer;
+    display: none;
+}
+
+#main-menu {
+    display: none;
+}
+
 #nav-menu {
   width: 70%;
   position: absolute;
@@ -258,8 +268,6 @@ footer {
 
 /* Media queries */
 
-/* For medium screen sizes from 950px wide and down */
-
 @media (max-width: 768px) {
     html {
         font-size: 60%;
@@ -291,4 +299,37 @@ footer {
         padding: 1rem 0;
     }
 
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 52%;
+    }
+
+    #logo {
+        display: inherit;
+    }
+
+    .check-button {
+        display: block;
+    }
+
+    #nav-menu ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #010103;
+        text-align: center;
+        left: 0;
+        top: 20%;
+        font-size: 2.5rem;
+        flex-direction: column;
+        line-height: 6rem;
+        justify-content: normal;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+  
 }
