@@ -21,6 +21,28 @@ body {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    font-size: 1.6rem;
+}
+
+header {
+    width: 100%;
+    height: aoto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    position: absolute;
+    bottom: 5rem;
 }
 
 .scroller {
@@ -64,14 +86,6 @@ body {
 
 /* heading and logo */
 
-header {
-    width: 100%;
-    height: aoto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
 #logo {
     font-family: 'Abril Fatface', cursive;
     text-transform: uppercase;
@@ -82,10 +96,7 @@ header {
     top: 4rem;
 }
 
-a {
-    text-decoration: none;
-    color: #fff;
-}
+
 /* navigation links */
 
 .check-button {
@@ -244,14 +255,6 @@ a {
 
 /* footer */
 
-footer {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    position: absolute;
-    bottom: 5rem;
-}
-
 .social-networks li {
     display: inline;
     list-style-type: none;
@@ -264,6 +267,36 @@ footer {
 }
 
 /* Media queries */
+
+@media (max-width: 600px) {
+    html {
+        font-size: 52%;
+    }
+
+    #nav-menu ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #010103;
+        text-align: center;
+        left: 0;
+        top: 20%;
+        font-size: 2.5rem;
+        flex-direction: column;
+        line-height: 6rem;
+        justify-content: normal;
+    }
+
+    #nav-menu ul li a {
+        display: block;
+        width: 100%;
+    }
+
+    #nav-menu ul li a:hover {
+        background-color: rgba(85, 85, 85, 0.4);
+    }
+
+}
 
 @media (max-width: 768px) {
     html {
@@ -298,32 +331,3 @@ footer {
 
 }
 
-@media (max-width: 600px) {
-    html {
-        font-size: 52%;
-    }
-
-    #nav-menu ul {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #010103;
-        text-align: center;
-        left: 0;
-        top: 20%;
-        font-size: 2.5rem;
-        flex-direction: column;
-        line-height: 6rem;
-        justify-content: normal;
-    }
-
-    #nav-menu ul li a {
-        display: block;
-        width: 100%;
-    }
-
-    #nav-menu ul li a:hover {
-        background-color: rgba(85, 85, 85, 0.4);
-    }
-
-}
