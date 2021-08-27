@@ -108,7 +108,7 @@ footer {
 
 #nav-menu {
   width: 70%;
-  position: absolute;
+  position: fixed;
   top: 17rem;
 }
 
@@ -126,6 +126,7 @@ footer {
  #nav-menu a:hover {
     font-size: 2.8rem;
     color: #ffff;
+    opacity: 0.8;
 }
 
 /* message and booking for section 1,2,3 */
@@ -187,9 +188,9 @@ footer {
     text-align: center;
 }
 
-.yin-yoga-container div a {
+.booking {
     position: relative;
-    top: 5rem;
+    top: 3rem;
     font-size: 2rem;
     
     display: flex;
@@ -202,17 +203,10 @@ footer {
     background-color: #a88c76;
 }
 
-.booking {
-    position: relative;
-    top: 3rem;
-    font-size: 2rem;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 5rem;
-    width: 15rem;
+.booking:hover, .submit-bottom:hover {
+    font-size: 2.2rem;
+    height: 6rem;
+    width: 16rem;
     border-radius: 5px;
     background-color: #a88c76;
 }
@@ -271,6 +265,7 @@ footer {
     font-size: 2rem;
     padding: 2rem;
 }
+
 #design-by {
     font-size: 1.5rem;
     letter-spacing: 1px;
