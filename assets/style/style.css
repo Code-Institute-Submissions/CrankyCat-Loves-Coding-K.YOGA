@@ -11,6 +11,7 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    background-color: #000000;
 }
 
 body {
@@ -66,22 +67,18 @@ footer {
 /* background images */
 #home {
     background: url('../images/main-image-women-practice-yoga.jpg') no-repeat center center;
-    background-color: #000000;
 }
 
 #yin-yoga {
     background: url('../images/yin-yoga-image-practice.jpg') no-repeat center center;
-    background-color: #000000;
 }
 
 #about-me {
     background: url('../images/about-me-trainer-image.jpg') no-repeat right center;
-    background-color: #000000;
 }
 
 #schedule {
     background: url('../images/schedule-image-book-class.jpg') no-repeat left center;
-    background-color: #000000;
 }
 
 /* heading and logo */
