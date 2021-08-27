@@ -266,9 +266,17 @@ footer {
     padding: 2rem;
 }
 
-#design-by {
+.social-networks li:hover {
+    font-size: 2.5rem;
+}
+
+.design-by {
     font-size: 1.5rem;
     letter-spacing: 1px;
+}
+
+.design-by:hover {
+    font-size: 1.7rem;
 }
 
 /* Media queries */
@@ -285,7 +293,7 @@ footer {
         background: #010103;
         text-align: center;
         left: 0;
-        top: 20%;
+        top: 0;
         font-size: 2.5rem;
         flex-direction: column;
         line-height: 6rem;
@@ -330,7 +338,7 @@ footer {
         flex-direction: column;
     }
 
-    #design-by {
+    .design-by {
         padding: 1rem 0;
     }
 
