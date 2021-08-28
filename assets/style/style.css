@@ -57,19 +57,19 @@ a {
 }
 
 /* background images */
-.home {
+#home-section {
     background: url('../images/main-image-women-practice-yoga.jpg') no-repeat center center;
 }
 
-.yin-yoga {
+#yin-yoga-section {
     background: url('../images/yin-yoga-image-practice.jpg') no-repeat center center;
 }
 
-.about-me {
+#about-me-section {
     background: url('../images/about-me-trainer-image.jpg') no-repeat right center;
 }
 
-.schedule {
+#schedule-section {
     background: url('../images/schedule-image-book-class.jpg') no-repeat left center;
 }
 
@@ -139,6 +139,25 @@ a {
     width: 80%;
     height: 100vh;
     text-align: justify;
+}
+
+.booking {
+    position: relative;
+    width: 100%;
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking a {
+    height: 4rem;
+    width: 11rem;
+    border-radius: 5px;
+    background-color: rgba(168, 140, 118, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* footer */
