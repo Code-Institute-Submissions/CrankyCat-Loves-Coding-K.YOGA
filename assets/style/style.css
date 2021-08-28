@@ -35,14 +35,6 @@ a {
     color: #fff;
 }
 
-footer {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    position: absolute;
-    bottom: 5rem;
-}
-
 :root {
     --background: rgba(0,0,0,1);
 }
@@ -88,6 +80,7 @@ footer {
     text-transform: uppercase;
     font-size: 6rem;
     letter-spacing: 10px;
+    padding: 2rem 0;
 }
 
 /* nav */
@@ -134,4 +127,42 @@ footer {
 
 #schedule {
     top: 12rem;
+}
+
+/* message for section 1,2,3 */
+
+.welcome-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+    text-align: justify;
+}
+
+/* footer */
+
+footer {
+    display: block;
+    width: 80%;
+    position: fixed;
+    bottom: 1rem;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+}
+
+.social-networks li {
+    list-style: none;
+    display: inline;
+    padding: 0 2rem;
+}
+
+.design-by {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
 }
