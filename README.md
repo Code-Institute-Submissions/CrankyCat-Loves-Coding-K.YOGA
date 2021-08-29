@@ -9,30 +9,34 @@ Visit the website here.
 
 ## **Table of Contents**
 
-### 1. **What is it?**
+### 1. [What is it?](#what-is-it)
 
-* Goals for the website
-* Target audience
+* [Goals for the website](#goals-for-the-website)
+* [Target audience](#target-audience)
 
-### 2. **How to achieve?**
+### 2. [How to achieve?](#how-to-achieve)
 
-* Theme and Theory
-* Features
-* Style elements
-* Create a wireframe
-* Technology stack
+* [Theme and Theory](#theme-and-theory)
+* [Features](#features)
+* [Style elements](#style-elements)
+* [Create a wireframe](#create-a-wireframe)
+* [Technology stack](#technology-stack)
 
-### 3. **Testing and launch**
-* Accessibility
+### 3. [Testing and launch](#teasting-and-launch)
+* [HTML validation](#html-validation)
+* [CSS validation](#css-validation)
+* [Accessibility](#accessibility)
 
-### 4. **Support**
+### 4. [Support](#support)
 
-* Mentor
+* [Mentor](#mentor)
 
-### 5. **Reference and Research**
+### 5. [Reference and Research](#reference-and-research)
 
-* Reference
-* Research
+* [Reference](#reference)
+* [Research](#research)
+
+---
 
 ### **1. What is it?**
 
@@ -101,11 +105,11 @@ Visit the website here.
   * [Stocksnap](Stocksnap.io)
 
 ### 3. **Testing and launch**
-* HTML
+* HTML validation
 
   * No errors or warnings were found when passing through the official W3C validator.
 
-* CSS
+* CSS validation
 
   * No errors or warnings were found when passing through the official Jigsaw validator.
 
