@@ -11,6 +11,7 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    background: rgba(0,0,0,1);
 }
 
 body {
@@ -33,10 +34,6 @@ header {
 a { 
     text-decoration: none;
     color: #fff;
-}
-
-:root {
-    --background: rgba(0,0,0,1);
 }
 
 .scroller {
@@ -84,7 +81,6 @@ a {
 }
 
 /* nav */
-/* postion sidebar - reference w3c hover sidenav buttons */
 
 .my-sidebar-nav li {
     list-style: none;
@@ -145,7 +141,7 @@ a {
     position: relative;
     top: 5rem;
     width: 100%;
-    height: 60%;
+    height: 55%;
     background: rgba(85, 85, 85, 0.5);
     overflow: scroll;
 }
@@ -191,7 +187,8 @@ a {
     top: 15rem;
     width: 75%;
     overflow: auto;
-    height: 50%;
+    height: 55%;
+    line-height: 3rem;
 }
 
 .mobile-hidden-message {
@@ -202,10 +199,25 @@ a {
     display: none;
 }
 
+.schedule-box i {
+    padding: 0 0 1rem 0;
+    color:rgba(168, 140, 118, .8);
+}
+
 #class-type:checked ~ div,
 #schedule-preferance:checked ~ div,
 #sign-up:checked ~ div {
     display: block;
+}
+
+.submit {
+    height: 4rem;
+    width: 11rem;
+    border-radius: 5px;
+    background-color: rgba(168, 140, 118, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* footer */
@@ -242,3 +254,57 @@ footer {
         font-size: 5.5rem;
     }
 }
+
+@media only screen and (min-width: 768px) {
+
+    .my-sidebar-nav li {
+        list-style: none;
+        display: inline;
+    }
+
+    .my-sidebar-nav a {
+        line-height: 3rem;
+        position: relative;
+        right: 0;
+    }
+
+    #about-me, 
+    #yin-yoga,
+    #schedule {
+        top: 0;
+    }
+
+    .btn-position {
+        top: 55rem;
+    }
+
+    .mobile-hidden-message {
+        display: block;
+    }
+
+    .schedule-box {
+        top: 20rem;
+    }
+    
+    footer {
+        display: flex;
+        width: 80%;
+        position: fixed;
+        bottom: 1rem;
+        justify-content: space-between;
+    }
+    
+    .social-networks {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .design-by {
+        font-size: 1rem;
+        text-align: center;
+        padding: 1rem 0;
+    }
+}
+
