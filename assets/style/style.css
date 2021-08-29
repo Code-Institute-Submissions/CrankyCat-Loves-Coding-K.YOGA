@@ -184,7 +184,7 @@ a {
 
 .schedule-box {
     position: relative;
-    top: 15rem;
+    top: 17rem;
     width: 50%;
     overflow: auto;
     height: 55%;
@@ -262,8 +262,15 @@ footer {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 375px) {
 
+    .schedule-box {
+        width: 75%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
 
     footer {
         display: flex;
@@ -300,6 +307,7 @@ footer {
 
     .schedule-box {
         top: 20rem;
+        width: 50%;
     }
     
     .social-networks {
