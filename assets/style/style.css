@@ -252,14 +252,15 @@ footer {
 
 @media screen and (max-width: 375px) {
 
+    .logo {
+        font-size: 5.5rem;
+    }
+
     .schedule-box {
         width: 75%;
         margin: 0 auto;
     }
 
-    .logo {
-        font-size: 5.5rem;
-    }
 }
 
 @media screen and (min-width: 375px) {
