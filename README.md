@@ -23,6 +23,7 @@ Visit the website here.
 * Technology stack
 
 ### 3. **Testing and launch**
+* Accessibility
 
 ### 4. **Support**
 
@@ -46,8 +47,6 @@ Visit the website here.
   * Office worker.
   * People who sleep lightly, have insomnia, or have limited time to sleep.
 
-[Back to Table of Contents](#content)
-
 ### **2. How to achieve?**
 
 * Theme and Theory
@@ -61,8 +60,6 @@ Visit the website here.
   Beautiful pictures are important to draw people’s attention and colours like dark gray and the other can instantly bring anybody into a relaxed state. These things also add a trusty and professional feeling to the brand.
   
   Colour psychology teaches that colours have a big influence on people’s behaviors and moods. Well-selected colours can convince users to take action and purchase products or sign up for your mailing list.
-
-  [Back to Table of Contents](#content)
 
 * Features
 
@@ -78,8 +75,6 @@ Visit the website here.
 
     The social links will be added at the bottom left to allow our potential customers to connect with the site on social media.
 
-[Back to Table of Contents](#content)
-
 * Style elements
   * **Fonts**
   
@@ -89,11 +84,7 @@ Visit the website here.
 
     Icons from Font Awesome will be used to style social links to create a tidy and easy access for subscription.
 
-[Back to Table of Contents](#content)
-
 * Create a wireframe
-
-[Back to Table of Contents](#content)
 
 * Technology stack
 
@@ -109,11 +100,11 @@ Visit the website here.
   * [Pixabay.com](https://pixabay.com/)
   * [Stocksnap](Stocksnap.io)
 
-[Back to Table of Contents](#content)
-
 ### 3. **Testing and launch**
+* Accessibility
 
-[Back to Table of Contents](#content)
+  * The colors and fonts chosen are easy to read and accessaiible by running it through lighthouse in devtools.
+![Web Accessibility check](assets/images/Web-Accessibility.jpg)
 
 ### 4. **Support**
 
@@ -121,8 +112,6 @@ Visit the website here.
 
   * [Simen Daehlin](https://www.linkedin.com/in/simendaehlin/)
   A lead Full Stack Developer & Mentor
-
-[Back to Table of Contents](#content)
 
 ### 5. **Reference and Research**
 
@@ -142,5 +131,3 @@ Visit the website here.
   * [Lights Out: 3 Benefits to Practicing Yoga in the Dark This Fall Season](https://www.yogapedia.com/2/6927/yoga-practice/yoga-types/why-you-should-practice-yoga-in-the-dark)  
   * [Bedtime Yoga: How to Relax for a Good Night’s Sleep](https://www.healthline.com/health/healthy-sleep/bedtime-yoga
 )
-
-[Back to Table of Contents](#content)
