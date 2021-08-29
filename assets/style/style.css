@@ -36,6 +36,11 @@ a {
     color: #fff;
 }
 
+form {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .scroller {
     width: 100%;
     height: 100%;
@@ -250,12 +255,25 @@ footer {
 /* media queries */
 
 @media screen and (max-width: 375px) {
+
     .logo {
         font-size: 5.5rem;
     }
 }
 
 @media only screen and (min-width: 768px) {
+
+    form {
+        width: 50%%;
+    }
+
+    footer {
+        display: flex;
+        width: 80%;
+        position: fixed;
+        bottom: 1rem;
+        justify-content: space-between;
+    }
 
     .my-sidebar-nav li {
         list-style: none;
@@ -286,14 +304,6 @@ footer {
         top: 20rem;
     }
     
-    footer {
-        display: flex;
-        width: 80%;
-        position: fixed;
-        bottom: 1rem;
-        justify-content: space-between;
-    }
-    
     .social-networks {
         width: 100%;
         display: flex;
@@ -308,3 +318,16 @@ footer {
     }
 }
 
+@media only screen and (min-width: 992px) {
+    form {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    form {
+        width: 32%;
+    }
+    
+}
