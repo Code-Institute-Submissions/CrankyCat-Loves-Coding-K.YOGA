@@ -36,11 +36,6 @@ a {
     color: #fff;
 }
 
-form {
-    width: 100%;
-    margin: 0 auto;
-}
-
 .scroller {
     width: 100%;
     height: 100%;
@@ -190,10 +185,11 @@ form {
 .schedule-box {
     position: relative;
     top: 15rem;
-    width: 75%;
+    width: 50%;
     overflow: auto;
     height: 55%;
     line-height: 3rem;
+    margin: 0 auto;
 }
 
 .mobile-hidden-message {
@@ -256,6 +252,11 @@ footer {
 
 @media screen and (max-width: 375px) {
 
+    .schedule-box {
+        width: 75%;
+        margin: 0 auto;
+    }
+
     .logo {
         font-size: 5.5rem;
     }
@@ -263,9 +264,6 @@ footer {
 
 @media only screen and (min-width: 768px) {
 
-    form {
-        width: 50%%;
-    }
 
     footer {
         display: flex;
@@ -319,14 +317,14 @@ footer {
 }
 
 @media only screen and (min-width: 992px) {
-    form {
+    .schedule-box {
         width: 40%;
     }
 }
 
 @media only screen and (min-width: 1200px) {
 
-    form {
+    .schedule-box {
         width: 32%;
     }
     
