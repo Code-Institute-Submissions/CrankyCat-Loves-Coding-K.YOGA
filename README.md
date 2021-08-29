@@ -101,6 +101,14 @@ Visit the website here.
   * [Stocksnap](Stocksnap.io)
 
 ### 3. **Testing and launch**
+* HTML
+
+  * No errors or warnings were found when passing through the official W3C validator.
+
+* CSS
+
+  * No errors or warnings were found when passing through the official Jigsaw validator.
+
 * Accessibility
 
   * The colors and fonts chosen are easy to read and accessaiible by running it through lighthouse in devtools.
