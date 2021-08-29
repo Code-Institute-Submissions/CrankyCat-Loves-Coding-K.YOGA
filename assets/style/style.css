@@ -184,6 +184,30 @@ a {
     top: 7rem;
 }
 
+/* styling section 4 */
+
+.schedule-box {
+    position: relative;
+    top: 15rem;
+    width: 75%;
+    overflow: auto;
+    height: 50%;
+}
+
+.mobile-hidden-message {
+    display: none;
+}
+
+.click-btn {
+    display: none;
+}
+
+#class-type:checked ~ div,
+#schedule-preferance:checked ~ div,
+#sign-up:checked ~ div {
+    display: block;
+}
+
 /* footer */
 
 footer {
