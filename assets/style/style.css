@@ -96,7 +96,7 @@ a {
     position: absolute;
     right: -10.5rem;
     transition: 0.3s;
-    padding: 1rem;
+    padding: 0.7rem 0;
     width: 15rem;
     border-radius: 5px;
     text-align: justify;
@@ -107,7 +107,7 @@ a {
 
 .my-sidebar-nav a:hover {
     right: 0;
-    background-color: rgba(168, 140, 118, .7);
+    background-color: rgba(168, 140, 118, 1);
 }
 
 #home {
