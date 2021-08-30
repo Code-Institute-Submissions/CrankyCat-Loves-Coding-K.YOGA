@@ -1,4 +1,4 @@
-<h1 align="center"><b>K.YOGA</b></h1>
+# K.YOGA
 
 ![Portfolio image](assets/images/portfolio-image.png)
 
@@ -9,51 +9,31 @@ Visit the website here.
 
 ## **Table of Contents**
 
-### 1. [What is it?](#what-is-it)
-
-* [Goals for the website](#goals-for-the-website)
-* [Target audience](#target-audience)
-
-### 2. [How to achieve?](#how-to-achieve)
-
-* [Theme and Theory](#theme-and-theory)
-* [Features](#features)
-* [Style elements](#style-elements)
-* [Create a wireframe](#create-a-wireframe)
-* [Technology stack](#technology-stack)
-
-### 3. [Testing and launch](#teasting-and-launch)
-* [HTML validation](#html-validation)
-* [CSS validation](#css-validation)
-* [Accessibility](#accessibility)
-
-### 4. [Support](#support)
-
-* [Mentor](#mentor)
-
-### 5. [Reference and Research](#reference-and-research)
-
-* [Reference](#reference)
-* [Research](#research)
-
----
+- [K.YOGA](#kyoga)
+  - [**Overview**](#overview)
+  - [**Table of Contents**](#table-of-contents)
+    - [**1. What is it?**](#1-what-is-it)
+    - [**2. How to achieve?**](#2-how-to-achieve)
+    - [**3. Testing and launch**](#3-testing-and-launch)
+    - [**4. Support**](#4-support)
+    - [**5. Reference and Research**](#5-reference-and-research)
 
 ### **1. What is it?**
 
-* Goals for the website
+- Goals for the website
 
-  * Introducing Yin Yoga.
-  * Introducing benefits of practicing Yin Yoga.
-  * Offering online Yin Yoga classes.
+  - Introducing Yin Yoga.
+  - Introducing benefits of practicing Yin Yoga.
+  - Offering online Yin Yoga classes.
 
-* Target audience
+- Target audience
 
-  * Office worker.
-  * People who sleep lightly, have insomnia, or have limited time to sleep.
+  - Office worker.
+  - People who sleep lightly, have insomnia, or have limited time to sleep.
 
 ### **2. How to achieve?**
 
-* Theme and Theory
+- Theme and Theory
   
   Practicing Yin Yoga before bedtime is a fantastic way to release any mental or physical tension. It can help people enjoy a peaceful night and get a deep sleep. Developing a nighttime routine may improve sleeping quality.
 
@@ -65,81 +45,82 @@ Visit the website here.
   
   Colour psychology teaches that colours have a big influence on people’s behaviors and moods. Well-selected colours can convince users to take action and purchase products or sign up for your mailing list.
 
-* Features
+- Features
 
-  * **Navigation Bar**
+  - **Navigation Bar**
 
     The navigation bar is designed to be simple and legible. Positioned under the logo on the top to help visitors find what they are looking for. Also a sticky navbar will be designed to help visitors to navigate the site more efficiently. Navigation links will be underlined to indicate which page they are on. Hovering over navigation links will apply a white background to the content indicating it has been selected.
 
-  * **Booking button**
+  - **Booking button**
 
     A Booking button will be added to each page to allow any potential customers to book a class easily. Once they click on the button, they will be taken to the booking page.
 
-  * **Social links**
+  - **Social links**
 
     The social links will be added at the bottom left to allow our potential customers to connect with the site on social media.
 
-* Style elements
-  * **Fonts**
+- Style elements
+  - **Fonts**
   
     *Open Sans* and *Abril Fatface* from Google fonts will be used to style text contents for the website. These fonts were chosen to give the website more of a professional feel and appearance.
 
-  * **Icons**
+  - **Icons**
 
     Icons from Font Awesome will be used to style social links to create a tidy and easy access for subscription.
 
-* Create a wireframe
+- Create a wireframe
 
-* Technology stack
+- Technology stack
 
-  * HTML5
-  * CSS3
-  * Gitpod/Github
-  * [Balsamic](https://balsamiq.com/wireframes/)
-  * [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input)
-  * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
-  * [Font Awesome](https://fontawesome.com/)
-  * [Google Fonts](https://fonts.google.com/)
-  * [Unsplash.com](https://unsplash.com/)
-  * [Pixabay.com](https://pixabay.com/)
-  * [Stocksnap](Stocksnap.io)
+  - HTML5
+  - CSS3
+  - Gitpod/Github
+  - [Balsamic](https://balsamiq.com/wireframes/)
+  - [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input)
+  - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+  - [Font Awesome](https://fontawesome.com/)
+  - [Google Fonts](https://fonts.google.com/)
+  - [Unsplash.com](https://unsplash.com/)
+  - [Pixabay.com](https://pixabay.com/)
+  - [Stocksnap](Stocksnap.io)
 
 ### 3. **Testing and launch**
-* HTML validation
 
-  * No errors or warnings were found when passing through the official W3C validator.
+- HTML validation
 
-* CSS validation
+  - No errors or warnings were found when passing through the official W3C validator.
 
-  * No errors or warnings were found when passing through the official Jigsaw validator.
+- CSS validation
 
-* Accessibility
+  - No errors or warnings were found when passing through the official Jigsaw validator.
 
-  * The colors and fonts chosen are easy to read and accessaiible by running it through lighthouse in devtools.
+- Accessibility
+
+  - The colors and fonts chosen are easy to read and accessaiible by running it through lighthouse in devtools.
 ![Web Accessibility check](assets/images/Web-Accessibility.jpg)
 
 ### 4. **Support**
 
-* Mentor
+- Mentor
 
-  * [Simen Daehlin](https://www.linkedin.com/in/simendaehlin/)
+  - [Simen Daehlin](https://www.linkedin.com/in/simendaehlin/)
   A lead Full Stack Developer & Mentor
 
 ### 5. **Reference and Research**
 
-* Reference
+- Reference
 
-  * Love Running
-  * [Living Room Yoga](https://www.livingroomyoga.ie/)
-  * [Zara](zara.com)
-  * [Apple](apple.com)
+  - Love Running
+  - [Living Room Yoga](https://www.livingroomyoga.ie/)
+  - [Zara](zara.com)
+  - [Apple](apple.com)
 
-* Research
+- Research
 
-  * [W3schools - CSS](https://www.w3schools.com/css/default.asp)
-  * [W3schools - HTML](https://www.w3schools.com/html/default.asp )
-  * [Website Development Process: Full Guide in 7 Steps](https://xbsoftware.com/blog/website-development-process-full-guide/)  
-  * [10 Examples of Great Yoga Teacher Homepages](https://www.susannerieker.com/10-examples-great-yoga-teacher-homepages/ )
-  * [Lights Out: 3 Benefits to Practicing Yoga in the Dark This Fall Season](https://www.yogapedia.com/2/6927/yoga-practice/yoga-types/why-you-should-practice-yoga-in-the-dark)  
-  * [Bedtime Yoga: How to Relax for a Good Night’s Sleep](https://www.healthline.com/health/healthy-sleep/bedtime-yoga
+  - [W3schools - CSS](https://www.w3schools.com/css/default.asp)
+  - [W3schools - HTML](https://www.w3schools.com/html/default.asp )
+  - [Website Development Process: Full Guide in 7 Steps](https://xbsoftware.com/blog/website-development-process-full-guide/)  
+  - [10 Examples of Great Yoga Teacher Homepages](https://www.susannerieker.com/10-examples-great-yoga-teacher-homepages/ )
+  - [Lights Out: 3 Benefits to Practicing Yoga in the Dark This Fall Season](https://www.yogapedia.com/2/6927/yoga-practice/yoga-types/why-you-should-practice-yoga-in-the-dark)  
+  - [Bedtime Yoga: How to Relax for a Good Night’s Sleep](https://www.healthline.com/health/healthy-sleep/bedtime-yoga
 )
