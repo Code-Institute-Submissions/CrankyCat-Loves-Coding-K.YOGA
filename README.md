@@ -1,4 +1,4 @@
-# K.YOGA
+# **K.YOGA**
 
 ![Portfolio image](assets/images/portfolio-image.png)
 
@@ -9,7 +9,7 @@ Visit the website here.
 
 ## **Table of Contents**
 
-- [K.YOGA](#kyoga)
+- [**K.YOGA**](#kyoga)
   - [**Overview**](#overview)
   - [**Table of Contents**](#table-of-contents)
     - [**1. What is it?**](#1-what-is-it)
@@ -30,6 +30,8 @@ Visit the website here.
 
   - Office worker.
   - People who sleep lightly, have insomnia, or have limited time to sleep.
+
+[Back to the top](#overview)
 
 ### **2. How to achieve?**
 
@@ -84,6 +86,8 @@ Visit the website here.
   - [Pixabay.com](https://pixabay.com/)
   - [Stocksnap](Stocksnap.io)
 
+[Back to the top](#overview)
+
 ### 3. **Testing and launch**
 
 - HTML validation
@@ -99,12 +103,16 @@ Visit the website here.
   - The colors and fonts chosen are easy to read and accessaiible by running it through lighthouse in devtools.
 ![Web Accessibility check](assets/images/Web-Accessibility.jpg)
 
+[Back to the top](#overview)
+
 ### 4. **Support**
 
 - Mentor
 
   - [Simen Daehlin](https://www.linkedin.com/in/simendaehlin/)
   A lead Full Stack Developer & Mentor
+
+  [Back to the top](#overview)
 
 ### 5. **Reference and Research**
 
@@ -124,3 +132,5 @@ Visit the website here.
   - [Lights Out: 3 Benefits to Practicing Yoga in the Dark This Fall Season](https://www.yogapedia.com/2/6927/yoga-practice/yoga-types/why-you-should-practice-yoga-in-the-dark)  
   - [Bedtime Yoga: How to Relax for a Good Night’s Sleep](https://www.healthline.com/health/healthy-sleep/bedtime-yoga
 )
+
+[Back to the top](#overview)
