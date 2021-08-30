@@ -233,8 +233,7 @@ footer {
     bottom: 1rem;
     width: 100%;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    z-index: 999;
 }
 
 .social-networks li {
@@ -259,14 +258,20 @@ footer {
     width: 2rem;
     display: flex;
     justify-content: flex-end;
-    text-align: right;
     line-height: 4rem;
     padding: 0 1rem;
 }
 
 .social-networks a:hover {
     width: 12rem;
-    background-color: rgba(168, 140, 118, .7);
+    background-color: rgba(168, 140, 118, 1);
+}
+
+.design-by {
+    font-size: 10px;
+    padding: 1rem 0;
+    display: flex;
+    align-items: flex-end;
 }
 
 /* media queries */
@@ -282,30 +287,7 @@ footer {
         margin: 0 auto;
     }
 
-    footer {
-        display: block;
-        width: 80%;
-        position: fixed;
-        bottom: 1rem;
-    }
     
-    .social-networks {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .social-networks li {
-        list-style: none;
-        display: inline;
-        padding: 0 2rem;
-    }
-    
-    .design-by {
-        width: 100%;
-        font-size: 1rem;
-        text-align: center;
-        padding: 1rem 0;
-    }
 
 }
 
@@ -365,6 +347,31 @@ footer {
     }
     
     .design-by {
+        font-size: 1rem;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    footer {
+        display: block;
+        width: 80%;
+        position: fixed;
+        bottom: 1rem;
+    }
+    
+    .social-networks {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .social-networks li {
+        list-style: none;
+        display: inline;
+        padding: 0 2rem;
+    }
+    
+    .design-by {
+        width: 100%;
         font-size: 1rem;
         text-align: center;
         padding: 1rem 0;
