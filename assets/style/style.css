@@ -207,7 +207,7 @@ a {
 }
 
 .mobile-hidden-message input {
-    padding: 0.5rem 0;
+    padding: 0.5rem 2rem;
 }
 
 .click-btn {
@@ -315,17 +315,19 @@ footer {
 
 @media only screen and (min-width: 768px) {
 
-    footer {
-        display: flex;
-        width: 80%;
-        position: fixed;
-        bottom: 1rem;
-        justify-content: space-between;
+    .my-sidebar-nav span {
+        padding: 0 1rem;
     }
 
     .my-sidebar-nav li {
         list-style: none;
         display: inline;
+        padding: 0 2rem;
+    }
+
+    .my-sidebar-nav li i {
+        padding: 0 1rem 0;
+        font-size: 2rem;
     }
 
     .my-sidebar-nav a {
@@ -340,6 +342,10 @@ footer {
         top: 0;
     }
 
+    .message-container {
+        margin: 25rem 0 1rem 0;
+    }
+
     .mobile-hidden-message {
         display: block;
     }
@@ -348,40 +354,38 @@ footer {
         top: 20rem;
         width: 50%;
     }
-    
+
+    footer {
+        width: 80%;
+        position: absolute;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
     .social-networks {
-        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
-    .design-by {
-        font-size: 1rem;
-        text-align: center;
-        padding: 1rem 0;
+
+    .social-networks span {
+        display: none;
     }
 
-    footer {
-        display: block;
-        width: 80%;
-        position: fixed;
-        bottom: 1rem;
-    }
-    
     .social-networks li {
-        list-style: none;
-        display: inline;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .social-networks a {
         padding: 0 2rem;
     }
-    
+
     .design-by {
-        width: 100%;
-        font-size: 1rem;
-        text-align: center;
-        padding: 1rem 0;
+        position: relative;
+        z-index: 1;
+        font-size: 1.5rem;
     }
-}
 
 @media only screen and (min-width: 992px) {
     .schedule-box {
