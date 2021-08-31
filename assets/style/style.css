@@ -398,5 +398,9 @@ footer {
     .schedule-box {
         width: 32%;
     }
+
+    .message-container p {
+        padding: 1rem 15rem;
+    }
     
 }
