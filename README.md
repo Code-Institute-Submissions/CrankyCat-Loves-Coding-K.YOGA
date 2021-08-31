@@ -53,15 +53,15 @@ Visit the website here.
 
     The navigation bar is designed to be simple and legible. Positioned under the logo on the top for screen over 768px and on the top right for scree under 768px to help visitors find what they are looking for. Also a hoverable navbar(side navbar) for small screen is designed to help visitors to navigate the site more efficiently. Navigation links are colored to indicate which page they are on. Hovering over navigation links will apply a rgba(168, 140, 118, 1) background to the content indicating it has been selected.
 
+  - **Social links**
+
+    The social links will be added at the bottom left to allow our potential customers to connect with the site on social media. A side social link bar is also created for release some space on mobile screen.
+
     ![Image for navbar](assets/images/navbar-image.jpg)
 
   - **Booking button**
 
     A Booking button will be added to each page to allow any potential customers to book a class easily. Once they click on the button, they will be taken to the booking page.
-
-  - **Social links**
-
-    The social links will be added at the bottom left to allow our potential customers to connect with the site on social media.
 
 - Style elements
   - **Fonts**
@@ -124,10 +124,11 @@ Visit the website here.
 
 - Reference
 
-  - Love Running
+  - [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
   - [Living Room Yoga](https://www.livingroomyoga.ie/)
   - [Zara](zara.com)
   - [Apple](apple.com)
+  - [Filip - Portfolio Pure CSS Scroll Snapping Tutorial](https://www.youtube.com/watch?v=pNPkVQD7vlM&list=LL&index=8&ab_channel=Filip)
 
 - Research
 
