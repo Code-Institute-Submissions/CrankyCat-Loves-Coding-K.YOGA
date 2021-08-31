@@ -386,6 +386,7 @@ footer {
         z-index: 1;
         font-size: 1.5rem;
     }
+}
 
 @media only screen and (min-width: 992px) {
     .schedule-box {
@@ -394,7 +395,6 @@ footer {
 }
 
 @media only screen and (min-width: 1200px) {
-
     .schedule-box {
         width: 32%;
     }
@@ -402,5 +402,4 @@ footer {
     .message-container p {
         padding: 1rem 15rem;
     }
-    
 }

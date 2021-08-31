@@ -51,7 +51,9 @@ Visit the website here.
 
   - **Navigation Bar**
 
-    The navigation bar is designed to be simple and legible. Positioned under the logo on the top to help visitors find what they are looking for. Also a sticky navbar will be designed to help visitors to navigate the site more efficiently. Navigation links will be underlined to indicate which page they are on. Hovering over navigation links will apply a white background to the content indicating it has been selected.
+    The navigation bar is designed to be simple and legible. Positioned under the logo on the top for screen over 768px and on the top right for scree under 768px to help visitors find what they are looking for. Also a hoverable navbar(side navbar) for small screen is designed to help visitors to navigate the site more efficiently. Navigation links are colored to indicate which page they are on. Hovering over navigation links will apply a rgba(168, 140, 118, 1) background to the content indicating it has been selected.
+
+    ![Image for navbar](assets/images/navbar-image.jpg)
 
   - **Booking button**
 
@@ -71,7 +73,10 @@ Visit the website here.
     Icons from Font Awesome will be used to style social links to create a tidy and easy access for subscription.
 
 - Create a wireframe
-  - ![original wireframe](assets/images/wireframe.jpg)
+  - Below is the original wireframe
+  ![original wireframe](assets/images/wireframe.jpg)
+
+  - This website is designed for mobile (Iphone5/SE 320x658) first before designing for desktop or any other device. Consider that it is hard to create an exact breakpoint for each device because there are tons of screens and devices with different heights and widths, therefore, to keep things simple, target five groups of breakpoints (max/min375px, 768px, 992px, 1200px).
 
 - Technology stack
 
