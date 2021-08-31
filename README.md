@@ -71,6 +71,7 @@ Visit the website here.
     Icons from Font Awesome will be used to style social links to create a tidy and easy access for subscription.
 
 - Create a wireframe
+  - ![original wireframe](assets/images/wireframe.jpg)
 
 - Technology stack
 
