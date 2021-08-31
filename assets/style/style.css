@@ -139,33 +139,31 @@ a {
 }
 
 .message-container {
-    position: relative;
-    top: 5rem;
     width: 100%;
-    height: 55%;
-    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
     z-index: 1;
+    margin: 10rem 0 1rem 0;
 }
-
 .message-container h2 {
     text-align: center;
     line-height: 7rem;
 }
-
 .message-container p {
-    padding: 1rem 4rem;
+    padding: 1rem 5rem;
     text-align: justify;
     line-height: 2.5rem;
+
 }
 
 .booking {
     position: relative;
     width: 100%;
-    margin: 4rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+    padding-top: 3rem;
+    z-index: 99;
 }
 
 .booking a {
@@ -176,11 +174,20 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+    position: relative;
+    z-index: 99;
 }
 
-.btn-position {
-    top: 7rem;
+.scroll-icon {
+    width: 50%;
+    height: 23rem;
+    text-align: center;
+    position: sticky;
+    padding-top: 1rem;
+}
+
+.scroll-icon i {
+    padding: 0 1rem;
 }
 
 /* styling section 4 */
@@ -199,6 +206,10 @@ a {
     display: none;
 }
 
+.mobile-hidden-message input {
+    padding: 0.5rem 0;
+}
+
 .click-btn {
     display: none;
 }
@@ -206,6 +217,8 @@ a {
 .schedule-box i {
     padding: 0 0 1rem 0;
     color:rgba(168, 140, 118, .8);
+    position: relative;
+    z-index: 3;
 }
 
 #class-type:checked ~ div,
@@ -222,7 +235,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    z-index: 4;
+    position: relative;
 }
 
 /* footer */
@@ -233,7 +247,6 @@ footer {
     bottom: 1rem;
     width: 100%;
     display: flex;
-    z-index: 999;
 }
 
 .social-networks li {
@@ -260,6 +273,7 @@ footer {
     justify-content: flex-end;
     line-height: 4rem;
     padding: 0 1rem;
+    z-index: 2;
 }
 
 .social-networks a:hover {
@@ -272,6 +286,8 @@ footer {
     padding: 1rem 0;
     display: flex;
     align-items: flex-end;
+    position: relative;
+    z-index: -10;
 }
 
 /* media queries */
@@ -283,11 +299,8 @@ footer {
     }
 
     .schedule-box {
-        width: 75%;
-        margin: 0 auto;
+        width: 65%;
     }
-
-    
 
 }
 
@@ -326,10 +339,6 @@ footer {
         top: 0;
     }
 
-    .btn-position {
-        top: 55rem;
-    }
-
     .mobile-hidden-message {
         display: block;
     }
@@ -357,11 +366,6 @@ footer {
         width: 80%;
         position: fixed;
         bottom: 1rem;
-    }
-    
-    .social-networks {
-        display: flex;
-        justify-content: center;
     }
     
     .social-networks li {
