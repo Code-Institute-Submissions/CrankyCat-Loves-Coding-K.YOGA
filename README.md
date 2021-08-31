@@ -109,6 +109,10 @@ Visit the website here.
   - The colors and fonts chosen are easy to read and accessaiible by running it through lighthouse in devtools.
 ![Web Accessibility check](assets/images/Web-Accessibility.jpg)
 
+- Testing on devices
+  - There was no issue found when tested on Phone device Huawei mate9
+  ![Huawei mate9](assets/images/Test-Huawei-mate9.jpg)
+
 [Back to the top](#overview)
 
 ### 4. **Support**
