@@ -237,6 +237,7 @@ a {
     align-items: center;
     z-index: 4;
     position: relative;
+    margin-top: 2rem;
 }
 
 /* footer */
